@@ -7,16 +7,12 @@ const Header = ({ resumeData }) => {
     <Fragment>
       <header id="home">
         <nav id="nav-wrap">
-          <AnchorLink
-            className="mobile-btn"
-            href="#nav-wrap"
-            title="Show navigation"
-          >
+          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
-          </AnchorLink>
-          <AnchorLink className="mobile-btn" href="#" title="Hide navigation">
+          </a>
+          <a className="mobile-btn" href="#" title="Hide navigation">
             Hide navigation
-          </AnchorLink>
+          </a>
           <ul id="nav" className="nav">
             <li className="current">
               <AnchorLink href="#home">Home</AnchorLink>
