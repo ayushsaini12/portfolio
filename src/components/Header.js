@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+// import { Link } from "react-router-dom";
 
 const Header = ({ resumeData }) => {
   return (
@@ -32,7 +33,8 @@ const Header = ({ resumeData }) => {
             <li>
               <a
                 target="_blank"
-                href="https://drive.google.com/file/d/1zt7HQKcAs4o9ZDh5IL0-vNQSIMZbaS0k/view?usp=sharing"
+                rel="noopener noreferrer"
+                href="https://drive.google.com/file/d/1Eq6DT6nrbIGtFGF3oW6fXZlqj0Qhsp4l/view?usp=sharing"
               >
                 Download Resume
               </a>
